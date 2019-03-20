@@ -1,0 +1,57 @@
+.main {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Cutive Mono';
+  align-items: center;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  width: 70vmin;
+  justify-content: center;
+}
+
+.Vertical-list {
+  display: flex;
+  flex-direction:column;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Cutive Mono';
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:hover {
+  color: #606060;
+  text-decoration: underline;
+  text-decoration-color: #828282;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: 'Cutive Mono';
+  color: #303030;
+}
+
+h2 {
+  font-weight: normal;
+  color: #303030;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+p {
+  font-weight: normal;
+}

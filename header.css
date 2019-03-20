@@ -1,0 +1,25 @@
+.header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: calc(9px + 1vmin);
+  font-family: 'Cutive Mono';
+  color: black;
+}
+
+.header-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.header-links{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  min-width: 30vw;
+}
