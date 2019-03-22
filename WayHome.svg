@@ -1,55 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel="shortcut icon" href="/favicon.ico">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- stylesheets external -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Cutive+Mono|PT+Mono|Playfair+Display">
-
-    <!-- stylesheets local -->
-    <link rel="stylesheet" href="/index.css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Handa the Human</title>
-
-    <script src="./live.js"></script>
-  </head>
-  <body class="page">
-    <div class="header">
-      <ul class="header-nav">
-        <li>
-          <a href="/">
-            <hr/>
-            <h1>H</h1>
-          </a>
-        </li>
-        <li>
-          <ul class="header-links">
-            <li>
-              <a href="/">home</a>
-            </li>
-            <li>
-              <a href="/jots.html">jots</a>
-            </li>
-            <li>
-              <a href="/about.html">about</a>
-            </li>
-            <li>
-              <a href="/contact.html">contact</a>
-            </li>
-          </ul>
-          <hr/>
-        </li>
-      </nav>
-    </div>
-    <div class="main">
-      <div class="body">
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 2000 1300">
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1300" viewBox="0 0 2000 1300">
   <defs>
     <radialGradient id="wayhome-a" cx="49.456%" cy="53.005%" r="46.995%" fx="49.456%" fy="53.005%" gradientTransform="matrix(0 1 -.94803 0 .997 .035)">
       <stop offset="0%" stop-color="#491A8E"/>
@@ -289,7 +238,3 @@
     </text>
   </g>
 </svg>
-      </div>
-    </div>
-  </body>
-</html>
