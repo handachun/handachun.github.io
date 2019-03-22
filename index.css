@@ -127,6 +127,10 @@
   align-items: center;
 }
 
+.svg-box {
+  width:100%;
+}
+
 a {
   text-decoration: none;
   font-family: 'Cutive Mono';
@@ -169,4 +173,11 @@ p {
 
 ul {
   padding: 0;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
