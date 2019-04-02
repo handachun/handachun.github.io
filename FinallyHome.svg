@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2000px" height="1300px" viewBox="0 0 2000 1300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>FinallyHome</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="45.8771018%" gradientTransform="translate(0.500000,0.500000),scale(0.650000,1.000000),rotate(90.000000),scale(1.000000,1.672713),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#FFFC00" offset="0%"></stop>
+            <stop stop-color="#FFEE00" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <text id="text-2" font-family="CutiveMono-Regular, Cutive Mono" font-size="42" font-weight="normal" fill="#000000">
+            <tspan x="516.835938" y="558">"Well done, good and faithful servant.</tspan>
+            <tspan x="1000" y="604"></tspan>
+            <tspan x="554.980469" y="650">You have been faithful over little;</tspan>
+            <tspan x="1000" y="696"></tspan>
+            <tspan x="224.394531" y="742">I will set you over much. Enter into the joy of your master."</tspan>
+        </text>
+        <filter x="-0.3%" y="-2.2%" width="101.3%" height="108.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-4" font-family="CutiveMono-Regular, Cutive Mono" font-size="42" font-weight="normal" fill="#000000">
+            <tspan x="1445.20703" y="861">Matthew 25:23</tspan>
+        </text>
+        <filter x="-1.5%" y="-10.9%" width="106.0%" height="143.5%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="FinallyHome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Background-tint" fill="url(#radialGradient-1)" x="0" y="0" width="2000" height="1300"></rect>
+        <g id="servant" fill="#000000" fill-opacity="1">
+            <use filter="url(#filter-3)" xlink:href="#text-2"></use>
+            <use xlink:href="#text-2"></use>
+        </g>
+        <text id="home" font-family="CutiveMono-Regular, Cutive Mono" font-size="35" font-weight="normal" fill="#4E4B4B">
+            <tspan x="862.255859" y="1102">finally home.</tspan>
+        </text>
+        <text id="citizen" font-family="CutiveMono-Regular, Cutive Mono" font-size="35" font-weight="normal" fill="#4E4B4B">
+            <tspan x="819.873047" y="1025">hear those Words,</tspan>
+        </text>
+        <g id="verse" fill="#000000" fill-opacity="1">
+            <use filter="url(#filter-5)" xlink:href="#text-4"></use>
+            <use xlink:href="#text-4"></use>
+        </g>
+    </g>
+</svg>
