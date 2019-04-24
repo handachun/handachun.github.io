@@ -8,6 +8,8 @@
  * Copyright (c) 2018 Daniel Eden
  */
 
+
+
 @-webkit-keyframes bounce {
   from,
   20%,
@@ -112,6 +114,54 @@
   animation-name: flash;
 }
 
+@-webkit-keyframes flashsoft {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes flashsoft {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0.5;
+  }
+}
+
+.flashsoft {
+  -webkit-animation-name: flashsoft;
+  animation-name: flashsoft;
+}
+
+@-webkit-keyframes flashslight {
+  0% { opacity: 1;}
+  50% { opacity: 0.8;}
+  100% { opacity: 1;}
+}
+
+@keyframes flashslight {
+  0% { opacity: 1;}
+  50% { opacity: 0.8;}
+  100% { opacity: 1;}
+}
+
+.flashslight {
+  -webkit-animation-name: flashslight;
+  animation-name: flashslight;
+}
+
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 @-webkit-keyframes pulse {
@@ -151,6 +201,49 @@
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
+}
+
+@-webkit-keyframes flicker {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(7deg) skew(3deg, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(7deg) skew(3deg, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes flicker {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(7deg) skew(3deg, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(7deg) skew(3deg, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.flicker {
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transform-box: fill-box;
+  transform-box: fill-box;
+  -webkit-animation-name: flicker;
+  animation-name: flicker;
 }
 
 @-webkit-keyframes rubberBand {
@@ -3623,6 +3716,16 @@
 .animated.slower {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
+}
+
+.animated.evenslower {
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+}
+
+.animated.slothslower {
+  -webkit-animation-duration: 7s;
+  animation-duration: 7s;
 }
 
 @media (print), (prefers-reduced-motion) {

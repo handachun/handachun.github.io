@@ -1,3 +1,29 @@
+
+.delay-4000ms {
+  -webkit-animation-delay: 4000ms;
+  animation-delay: 4000ms;
+}
+
+.delay-3700ms {
+  -webkit-animation-delay: 3700ms;
+  animation-delay: 3700ms;
+}
+
+.delay-3300ms {
+  -webkit-animation-delay: 3300ms;
+  animation-delay: 3300ms;
+}
+
+.delay-3000ms {
+  -webkit-animation-delay: 3000ms;
+  animation-delay: 3000ms;
+}
+
+.delay-2800ms {
+  -webkit-animation-delay: 2800ms;
+  animation-delay: 2800ms;
+}
+
 .delay-2600ms {
   -webkit-animation-delay: 2600ms;
   animation-delay: 2600ms;
