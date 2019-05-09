@@ -1,3 +1,22 @@
+.jots-list {
+  list-style: none;
+}
+
+.title {
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+.endstamp {
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  width: 50vmin;
+}
+
 .header {
   background-color: white;
   display: flex;
@@ -122,7 +141,7 @@
 .body {
   display: flex;
   flex-direction: column;
-  width: 70vw;
+  width: 80vmin;
   justify-content: center;
   align-items: center;
 }
