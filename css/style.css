@@ -22,6 +22,11 @@
   width: 50vmin;
 }
 
+.content {
+  margin-top: 7vh;
+  margin-bottom: 12vh;
+}
+
 .header {
   background-color: white;
   display: flex;
