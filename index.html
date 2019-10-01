@@ -18,8 +18,8 @@
     <title>Handa the Human</title>
 
   </head>
-  <body class="page">
-    <div class="header">
+  <body id="body" class="page">
+    <div id="header" class="header">
       <ul class="header-nav">
         <li>
           <a href="/">
@@ -255,7 +255,7 @@
           </defs>
           <g id="WayHome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <rect id="Background-tint" visibility="hidden" fill="url(#radialGradient-1)" x="1.13686838e-13" y="0" width="2000" height="1300"></rect>
-              <polygon id="BackMount" visibility="hidden" fill="url(#linearGradient-2)" points="1217 431 1052.92797 347 878 431 900.407907 431"></polygon>
+              <polygon id="BackMount" visibility="visible" fill="url(#linearGradient-2)" points="1217 431 1052.92797 347 878 431 900.407907 431"></polygon>
               <polygon id="MidMount" visibility="hidden" fill="url(#linearGradient-3)" points="577 490 798.122073 371 1028 490"></polygon>
               <polygon id="ForeMount" visibility="hidden" fill="url(#linearGradient-4)" points="862 521 1157.82896 367 1474 521 1261.31357 521"></polygon>
               <path d="M985.251881,968 C1253.0883,968 1509,862.339201 1509,732 C1509,601.660799 1253.0883,496 985.251881,496 C717.415459,496 480,597.660799 480,728 C480,858.339201 717.415459,968 985.251881,968 Z" id="Ground" visibility="hidden" fill="url(#radialGradient-5)"></path>
@@ -406,6 +406,49 @@
               <polygon id="right cross" visibility="hidden" fill="#2F094C" points="1046.28571 360 1048 360 1048 360.666667 1046.28571 360.666667 1046.28571 366 1045.71429 366 1045.71429 360.666667 1044 360.666667 1044 360 1045.71429 360 1045.71429 358 1046.28571 358"></polygon>
               <polygon id="left cross" visibility="hidden" fill="#310A4F" points="1030.28571 360 1032 360 1032 360.666667 1030.28571 360.666667 1030.28571 366 1029.71429 366 1029.71429 360.666667 1028 360.666667 1028 360 1029.71429 360 1029.71429 358 1030.28571 358"></polygon>
               </g>
+        <defs>
+          <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="45.8771018%" gradientTransform="translate(0.500000,0.500000),scale(0.650000,1.000000),rotate(90.000000),scale(1.000000,1.672713),translate(-0.500000,-0.500000)" id="radialGradient-100">
+          <stop stop-color="#FFFC00" offset="0%"></stop>
+          <stop stop-color="#FFEE00" stop-opacity="0" offset="100%"></stop>
+          </radialGradient>
+        <text id="text-2" font-family="CutiveMono-Regular, Cutive Mono" font-size="42" font-weight="normal" fill="#000000">
+            <tspan x="516.835938" y="558">"Well done, good and faithful servant.</tspan>
+            <tspan x="1000" y="604"></tspan>
+            <tspan x="554.980469" y="650">You have been faithful over little;</tspan>
+            <tspan x="1000" y="696"></tspan>
+            <tspan x="224.394531" y="742">I will set you over much. Enter into the joy of your master."</tspan>
+        </text>
+        <filter x="-0.3%" y="-2.2%" width="101.3%" height="108.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-4" font-family="CutiveMono-Regular, Cutive Mono" font-size="42" font-weight="normal" fill="#000000">
+            <tspan x="1445.20703" y="861">Matthew 25:23</tspan>
+        </text>
+        <filter x="-1.5%" y="-10.9%" width="106.0%" height="143.5%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="FinallyHome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="New-Background-tint" fill="url(#radialGradient-100)" x="0" y="0" width="2000" height="1300" visibility="hidden"></rect>
+        <g id="servant" fill="#000000" fill-opacity="1" visibility="hidden">
+            <use filter="url(#filter-3)" xlink:href="#text-2"></use>
+            <use xlink:href="#text-2"></use>
+        </g>
+        <text id="home" font-family="CutiveMono-Regular, Cutive Mono" font-size="35" font-weight="normal" fill="#4E4B4B" visibility="hidden">
+            <tspan x="862.255859" y="1102">finally home.</tspan>
+        </text>
+        <text id="citizen" font-family="CutiveMono-Regular, Cutive Mono" font-size="35" font-weight="normal" fill="#4E4B4B" visibility="hidden">
+            <tspan x="819.873047" y="1025">hear those Words,</tspan>
+        </text>
+        <g id="verse" fill="#000000" fill-opacity="1" visibility="hidden">
+            <use filter="url(#filter-5)" xlink:href="#text-4"></use>
+            <use xlink:href="#text-4"></use>
+        </g>
+    </g>
           </svg>
         <script src="/js/index.js"></script>
       </div>

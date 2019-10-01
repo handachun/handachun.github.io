@@ -10,7 +10,6 @@
   margin-bottom: 1vw;
   font-size: calc(10px + 1vmin);
   font-family: 'Cutive Mono';
-  color: white;
 }
 
 .header-nav {
@@ -116,7 +115,6 @@
   justify-content: center;
   font-family: 'Cutive Mono';
   align-items: center;
-  background-color: black;
 }
 
 .body {
@@ -133,15 +131,15 @@ a {
 }
 
 a:link {
-  color: white;
+  color: inherit;
 }
 
 a:visited {
-  color: white;
+  color: inherit;
 }
 
 a:hover {
-  color: white;
+  color: inherit;
   text-decoration: underline;
   text-decoration-color: white;
 }
@@ -149,22 +147,18 @@ a:hover {
 h1 {
   font-weight: normal;
   font-family: 'Cutive Mono';
-  color: white;
 }
 
 h2 {
   font-weight: normal;
-  color: white;
 }
 
 h3 {
   font-weight: normal;
-  color: white;
 }
 
 p {
   font-weight: normal;
-  color: white;
 }
 
 ul {
@@ -176,5 +170,9 @@ html, body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
+  color: white;
 }
 
+.invisible {
+  visibility: hidden;
+}
