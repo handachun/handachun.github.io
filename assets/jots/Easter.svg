@@ -1,56 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="shortcut icon" href="/assets/favicon.ico">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- stylesheets external -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Cutive+Mono|PT+Mono|Playfair+Display">
-
-    <!-- stylesheets local -->
-    <link rel="stylesheet" href="/css/style.css">
-
-    <title>Handa the Human</title>
-
-  </head>
-  <body class="page">
-    <div class="header">
-      <ul class="header-nav">
-        <li>
-          <a href="/">
-            <hr/>
-            <h1>H</h1>
-          </a>
-        </li>
-        <li>
-          <ul class="header-links">
-            <li>
-              <a href="/">home</a>
-            </li>
-            <li>
-              <a href="/jots.html">jots</a>
-            </li>
-            <li>
-              <a href="/about.html">about</a>
-            </li>
-            <li>
-              <a href="/contact.html">contact</a>
-            </li>
-          </ul>
-          <hr/>
-        </li>
-      </nav>
-    </div>
-    <div class="main">
-      <div class="body">
-        <svg width="auto" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Holy Saturday</title>
-    <g id="Holy-Saturday" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#191818" x="0" y="0" width="1000" height="1000"></rect>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="1000px" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Easter</title>
+    <g id="Easter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFF9E6" x="0" y="0" width="1000" height="1000"></rect>
+        <circle id="Oval" stroke="#191818" stroke-width="6" fill="#F63232" cx="500" cy="500" r="82"></circle>
         <polygon id="Path-3" stroke="#191818" stroke-width="6" fill="#CEBFBF" stroke-linejoin="round" points="502 555 500 653.807317 307.3136 600.846415"></polygon>
         <polygon id="Path-4" stroke="#191818" stroke-width="6" fill="#AF9999" stroke-linejoin="round" points="500 653.807317 404.6568 725.494798 265.051739 689.651057 307.3136 600.846415"></polygon>
         <polygon id="Path-5" stroke="#191818" stroke-width="6" fill="#9D8A8A" stroke-linejoin="round" points="307.3136 600.846415 202.461146 600.846415 116.982949 626.517273 181.503222 715.865874 265.051739 689.651057"></polygon>
@@ -82,45 +35,17 @@
         <polygon id="Path-22" stroke="#191818" stroke-width="6" fill="#C6ABAB" stroke-linejoin="round" points="712.231301 835.343183 759.830956 954.907318 788.858989 848.258064 767.765736 768.102801"></polygon>
         <polygon id="Path-31" stroke="#191818" stroke-width="6" fill="#987979" stroke-linejoin="round" points="712.231301 835.343183 759.830956 954.907318 655.086445 954.907318"></polygon>
         <polygon id="Path-32" stroke="#191818" stroke-width="6" fill="#7D6B6B" points="404.6568 726.040601 659.863077 710.121166 502 653.807317"></polygon>
-        <polygon id="Path-34" stroke="#191818" stroke-width="6" fill="#A93737" points="425.987481 783.562585 623.830304 748.083157 682.568609 828.948896 605.6707 917.671592 565.110821 977.453659 382.525869 954.907318 349.75755 929.491447 349.75755 835.343183"></polygon>
-        <polygon id="Path-35" stroke="#191818" stroke-width="6" fill="#BB4E4E" stroke-linejoin="round" points="404.6568 726.040601 425.987481 783.562585 623.830304 748.083157 659.863077 710.121166"></polygon>
-        <polygon id="Path-36" stroke="#191818" stroke-width="6" fill="#B73838" stroke-linejoin="round" points="623.830304 746.841876 659.863077 710.121166 712.231301 835.343183 682.568609 828.948896"></polygon>
-        <polygon id="Path-37" stroke="#191818" stroke-width="6" fill="#7A2C2C" stroke-linejoin="round" points="682.568609 828.948896 605.6707 917.671592 655.086445 954.907318 712.231301 835.343183"></polygon>
-        <polygon id="Path-38" stroke="#191818" stroke-width="6" fill="#612323" stroke-linejoin="round" points="565.110821 977.453659 565.110821 990.559697 655.086445 954.907318 605.6707 917.671592"></polygon>
-        <polygon id="Path-39" stroke="#191818" stroke-width="6" fill="#431111" stroke-linejoin="round" points="565.110821 990.559697 565.110821 977.453659 382.525869 954.115644 365.266234 981.119393"></polygon>
-        <polygon id="Path-40" stroke="#191818" stroke-width="6" fill="#612323" stroke-linejoin="round" points="349.75755 929.491447 382.525869 954.115644 365.266234 981.119393 308.402537 929.491447"></polygon>
-        <polygon id="Path-41" stroke="#191818" stroke-width="6" fill="#7A2C2C" stroke-linejoin="round" points="349.75755 929.491447 349.75755 835.343183 319.534113 828.948896 308.402537 929.491447"></polygon>
-        <polygon id="Path-42" stroke="#191818" stroke-width="6" fill="#B73838" stroke-linejoin="round" points="349.75755 835.343183 425.987481 783.562585 404.6568 725.494798 319.534113 828.948896"></polygon>
+        <g id="Group" transform="translate(725.000000, 852.500000) rotate(85.000000) translate(-725.000000, -852.500000) translate(523.000000, 712.000000)" stroke="#191818" stroke-width="6">
+            <polygon id="Path-34" fill="#B19D9D" points="117.584943 73.4414196 315.427767 37.9619909 374.166072 118.82773 297.268163 207.550426 256.708283 267.332493 74.1233319 244.786152 41.3550129 219.370281 41.3550129 125.222017"></polygon>
+            <polygon id="Path-35" fill="#837575" stroke-linejoin="round" points="96.2542627 15.9194357 117.584943 73.4414196 315.427767 37.9619909 351.46054 0"></polygon>
+            <polygon id="Path-36" fill="#786868" stroke-linejoin="round" points="315.427767 36.7207098 351.46054 -2.13162821e-14 403.828763 125.222017 374.166072 118.82773"></polygon>
+            <polygon id="Path-37" fill="#736060" stroke-linejoin="round" points="374.166072 118.82773 297.268163 207.550426 346.683908 244.786152 403.828763 125.222017"></polygon>
+            <polygon id="Path-38" fill="#7D6B6B" stroke-linejoin="round" points="256.708283 267.332493 256.708283 280.438531 346.683908 244.786152 297.268163 207.550426"></polygon>
+            <polygon id="Path-39" fill="#786868" stroke-linejoin="round" points="256.708283 280.438531 256.708283 267.332493 74.1233319 243.994478 56.8636963 270.998228"></polygon>
+            <polygon id="Path-40" fill="#AF9999" stroke-linejoin="round" points="41.3550129 219.370281 74.1233319 243.994478 56.8636963 270.998228 2.27373675e-13 219.370281"></polygon>
+            <polygon id="Path-41" fill="#CEBFBF" stroke-linejoin="round" points="41.3550129 219.370281 41.3550129 125.222017 11.1315753 118.82773 1.11391173e-13 219.370281"></polygon>
+            <polygon id="Path-42" fill="#C49F9F" stroke-linejoin="round" points="41.3550129 125.222017 117.584943 73.4414196 96.2542627 15.3736317 11.1315753 118.82773"></polygon>
+        </g>
+        <polygon id="Path-33" stroke="#191818" stroke-width="6" fill="#191818" points="319.534113 828.948896 404.6568 725.494798 580.931539 715.865874 590.362118 919.196548 615.422578 967.716191 567.429185 990.559697 365.266234 981.119393 307.3136 929.491447"></polygon>
     </g>
 </svg>
-        <h1 class="title">Holy Saturday</h1>
-        <p class="left-aligned">
-          Lord<br>
-          Jesus,<br>
-          In the tomb,<br>
-          Dead and buried<br>
-          Head to toe, bandaged<br>
-          His body dead and still<br>
-          In that grave with stone set shut<br>
-          There slain and lain with all my sins<br>
-          You endured the pain and now you rest<br>
-          Proclaiming your victory beyond death<br>
-          Preaching to the saints before - they praise<br>
-          Though this dead of night chills my bones,<br>
-          I know I will sing again<br>
-          I await the Morning,<br>
-          Anticipating,<br>
-          With all the saints<br>
-          Proclaiming<br>
-          Jesus<br>
-          Lord
-        </p>
-        <p class="endstamp">
-          <i>
-            April 11, 2020 -- 4:34 PM <br> My hope set in my Savior 
-          </i>
-        </p>
-      </div>
-    </div>
-  </body>
-</html>
