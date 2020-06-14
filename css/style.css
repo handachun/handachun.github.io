@@ -16,6 +16,19 @@
   text-align: left;
 }
 
+.essay {
+  text-align: left;
+  line-height: 1.7;
+  text-indent: 3em;
+  font-family: 'Times New Roman';
+}
+
+.essay p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 .endstamp {
   padding-top: 7vh;
   padding-bottom: 7vh;
