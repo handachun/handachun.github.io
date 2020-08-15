@@ -12,6 +12,15 @@
   padding-bottom: 3vh;
 }
 
+.essay-title {
+  padding-top: 5vh;
+  padding-bottom: 0;
+}
+
+.essay-subtitle {
+  padding-bottom: 3.5rem;
+}
+
 .left-aligned {
   text-align: left;
 }
