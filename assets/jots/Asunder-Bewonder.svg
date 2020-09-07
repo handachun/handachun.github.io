@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="1000px" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Asunder-Bewonder</title>
+    <defs>
+        <circle id="path-1" cx="500" cy="500" r="500"></circle>
+    </defs>
+    <g id="Asunder-Bewonder" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Oval" fill="#FFFDF2" xlink:href="#path-1"></use>
+        <polygon id="Path" fill="#FFC600" mask="url(#mask-2)" points="302.206237 500.607315 267 312.59308 354.703979 365.084437 429.376912 229 502.509158 332.650812 569.795432 229 647.12497 365.084437 732.108363 280.763523 708.429297 500.607315"></polygon>
+        <polygon id="Path" fill="#837C64" mask="url(#mask-2)" transform="translate(499.554182, 635.803658) scale(1, -1) translate(-499.554182, -635.803658) " points="302.206237 771.607315 267 583.59308 354.703979 636.084437 429.376912 500 502.509158 603.650812 569.795432 500 647.12497 636.084437 732.108363 551.763523 708.429297 771.607315"></polygon>
+        <polygon id="Path-4" fill="#222222" mask="url(#mask-2)" points="502.509158 667.956504 719.327713 1000 267 1000"></polygon>
+        <polygon id="Path-2" fill="#111111" mask="url(#mask-2)" points="647.12497 635.522878 732.108363 719.843792 1000 987.735428 1000 1000 438.655425 1000"></polygon>
+        <polygon id="Path-3" fill="#000000" mask="url(#mask-2)" points="354.703979 635.522878 557.182966 1000 0 1000 9.66558371e-16 846.50191"></polygon>
+        <polygon id="Path-5" fill="#514646" mask="url(#mask-2)" points="732.108363 719.843792 708.429297 500 1000 500 1000 987.735428"></polygon>
+        <polygon id="Path-6" fill="#514646" mask="url(#mask-2)" points="302.206237 500 267 688.014235 0 846.50191 0 500.607315"></polygon>
+    </g>
+</svg>
